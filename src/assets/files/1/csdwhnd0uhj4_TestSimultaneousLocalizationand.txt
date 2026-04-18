@@ -1,0 +1,3 @@
+Test Simultaneous Localization and Mapping (SLAM) capabilities using RTAB-Map.
+Initial Failure (Resolution Mismatch):
+
