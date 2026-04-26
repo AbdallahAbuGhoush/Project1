@@ -17,3 +17,5 @@ async def welcome(app_settings:Settings=Depends(get_settings)):
         "app_version":app_version,
         "data": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
+
+    
