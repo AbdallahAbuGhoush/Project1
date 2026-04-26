@@ -15,5 +15,5 @@ async def welcome(app_settings:Settings=Depends(get_settings)):
     return{
         "app_name":app_name,
         "app_version":app_version,
-        "datatime": datatime.now().strftime("%Y-%m-%d %H:%M:%S")
+        "data": datatime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
